@@ -6,5 +6,5 @@ object Tiempo {
     var temperatura: String = clima.text()
     var titulo: String = doc.title()
     var condicion = doc.getElementsByClass("today_nowcard-phrase")
-    var scondicion = condicion.text()
+    var scondicion = condicion.text() 
 }
